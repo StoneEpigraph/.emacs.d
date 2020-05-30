@@ -1,0 +1,33 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("cx_Oracle" include nil nil [41 57])
+            ("os" include nil nil [58 67])
+            ("random" include nil nil [68 81])
+            ("user_name" variable nil nil [83 103])
+            ("user_passwd" variable nil nil [104 128])
+            ("url" variable nil nil [129 160])
+            ("get_conn" function
+               (:parent "dummy"
+                :arguments 
+                  ( ("self" variable nil (reparse-symbol function_parameters) [175 179]))                  )
+                nil [162 255])
+            ("get_max_rownum" function
+               (:parent "dummy"
+                :arguments 
+                  ( ("self" variable nil (reparse-symbol function_parameters) [275 279])
+                    ("table_name" variable nil (reparse-symbol function_parameters) [281 291]))                  )
+                nil [256 435]))          
+      :file "baoJingShuJu.py"
+      :pointmax 562
+      :fsize 675
+      :lastmodtime '(24101 19305 333031 300000)
+      :unmatched-syntax nil))
+  :file "!media!stone!Resources!workspace!python!pythonUtils!api!main!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

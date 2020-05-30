@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("ftplib" include nil nil [41 54])
+            ("os" include nil nil [55 64])
+            ("socket" include nil nil [65 78])
+            ("HOST" variable nil nil [80 104])
+            ("DIRN" variable nil nil [105 138])
+            ("FILE" variable nil nil [139 170])
+            ("main" function nil nil [173 1005])
+            ("if" code nil nil [1007 1045]))          
+      :file "getLatestFTP.py"
+      :pointmax 1045
+      :fsize 1092
+      :lastmodtime '(24101 19726 562497 600000)
+      :unmatched-syntax '((INDENT_BLOCK 272 . 336) (NEWLINE 271 . 272) (COLON 270 . 271) (TRY 189 . 192) (AS 266 . 268))))
+  :file "!media!stone!Resources!workspace!python!pythonCoreThree!internet!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

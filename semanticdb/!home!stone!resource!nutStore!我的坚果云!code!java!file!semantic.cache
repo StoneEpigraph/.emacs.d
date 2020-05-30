@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("java.io.File" include nil nil [1 21]))          
+      :file "fileAppendContent.java"
+      :pointmax 668
+      :fsize 688
+      :lastmodtime '(23575 44204 0 0)
+      :unmatched-syntax '((BRACE_BLOCK 57 . 667) (PUBLIC 24 . 30) (PAREN_BLOCK 54 . 56) (IDENTIFIER 668 . 669) (BRACE_BLOCK 57 . 667) (PUBLIC 24 . 30) (PAREN_BLOCK 54 . 56) (BRACE_BLOCK 57 . 667) (PUBLIC 24 . 30) (PAREN_BLOCK 54 . 56) (BRACE_BLOCK 58 . 668) (PUBLIC 25 . 31) (PAREN_BLOCK 55 . 57) (BRACE_BLOCK 58 . 949) (PUBLIC 25 . 31) (PAREN_BLOCK 55 . 57) (BRACE_BLOCK 58 . 1230) (PUBLIC 25 . 31) (PAREN_BLOCK 55 . 57) (BRACE_BLOCK 58 . 1511) (PUBLIC 25 . 31) (PAREN_BLOCK 55 . 57) (BRACE_BLOCK 58 . 1230) (PUBLIC 25 . 31) (PAREN_BLOCK 55 . 57) (BRACE_BLOCK 58 . 1792) (PUBLIC 25 . 31) (PAREN_BLOCK 55 . 57) (BRACE_BLOCK 58 . 1511) (PUBLIC 25 . 31) (PAREN_BLOCK 55 . 57) (BRACE_BLOCK 58 . 1230) (PUBLIC 25 . 31) (PAREN_BLOCK 55 . 57) (BRACE_BLOCK 58 . 668) (PUBLIC 25 . 31) (PAREN_BLOCK 55 . 57))))
+  :file "!home!stone!resource!nutStore!我的坚果云!code!java!file!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

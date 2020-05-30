@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode scheme-mode
+      :tags 
+        '( ("count-change" function (:arguments ("amount")) nil [1 45])
+            ("cc" function (:arguments ("amount" "kinds-of-conis")) nil [48 284])
+            ("first-denomination" function (:arguments ("kinds-of-coins")) nil [286 470])
+            ("count-change" code nil nil [473 490]))          
+      :file "sicpTest1.ss"
+      :pointmax 491
+      :fsize 0
+      :lastmodtime '(24153 4451 350946 483000)
+      :unmatched-syntax nil))
+  :file "!home!stone!resource!nutStore!我的坚果云!code!scheme!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

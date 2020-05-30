@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("requests" include nil nil [42 57])
+            ("os" include nil nil [58 67])
+            ("lxml" include nil nil [68 90])
+            ("xlwt" include nil nil [91 102])
+            ("if" code nil nil [105 1283]))          
+      :file "exportDentalClinic.py"
+      :pointmax 1284
+      :fsize 1342
+      :lastmodtime '(23632 8372 0 0)
+      :unmatched-syntax nil))
+  :file "!home!stone!resource!nutStore!我的坚果云!code!python!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

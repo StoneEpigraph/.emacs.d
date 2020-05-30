@@ -1,0 +1,144 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.ctfo.bjvmmis.dao" package nil nil [1 30])
+            ("com.ctfo.bjvmmis.pojo.HbRepairMsg" include nil nil [32 73])
+            ("com.ctfo.bjvmmis.pojo.HbVehicleCheckData" include nil nil [74 122])
+            ("com.ctfo.common.util.TLogger" include nil nil [123 159])
+            ("com.ctfo.framework.dao.BaseDao" include nil nil [160 198])
+            ("com.framework.dao.IDao" include nil nil [199 229])
+            ("java.io.PrintStream" include nil nil [230 257])
+            ("java.util.ArrayList" include nil nil [258 285])
+            ("java.util.Date" include nil nil [286 308])
+            ("java.util.List" include nil nil [309 331])
+            ("java.util.Map" include nil nil [332 353])
+            ("HbRepairMsgDao" type
+               (:typemodifiers ("public")
+                :superclasses "BaseDao"
+                :members 
+                  ( ("getNeedExportHbRepairMsgList" function (:constructor-flag t) (reparse-symbol class_member_declaration) [436 1025])
+                    ("getRepairPartNum" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("oid" variable (:type "String") (reparse-symbol formal_parameters) [1079 1089]))                          )
+                        (reparse-symbol class_member_declaration) [1062 1437])
+                    ("savHbVehicleCheckData" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("hvcd" variable (:type "HbVehicleCheckData") (reparse-symbol formal_parameters) [1475 1498]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1441 1715])
+                    ("updateHbMsgReportStatus" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("" variable (:type "hrmList") (reparse-symbol formal_parameters) [1773 1780])
+                            ("checkDateStr" variable (:type "String") (reparse-symbol formal_parameters) [1782 1801]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1719 2350])
+                    ("getUnqualifiedDataLastDate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uploadTime" variable (:type "String") (reparse-symbol formal_parameters) [2390 2407]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2352 3086])
+                    ("getRecheckDataLastDate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("checkDateStr" variable (:type "String") (reparse-symbol formal_parameters) [3122 3141]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3088 3618])
+                    ("selectReconciliationData" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("checkDate" variable (:type "String") (reparse-symbol formal_parameters) [3677 3693]))                          )
+                        (reparse-symbol class_member_declaration) [3652 4153])
+                    ("getUnqualifiedDataReDupLastDate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("starTimeSeconds" variable (:type "long") (reparse-symbol formal_parameters) [4198 4218])
+                            ("endTimeSeconds" variable (:type "long") (reparse-symbol formal_parameters) [4220 4239]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4155 4912])
+                    ("getMaintenanceDataLastDate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("checkDateStr" variable (:type "String") (reparse-symbol formal_parameters) [4952 4971]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4914 5503])
+                    ("getCheckReportData" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("checkDate" variable (:type "String") (reparse-symbol formal_parameters) [5551 5567]))                          )
+                        (reparse-symbol class_member_declaration) [5532 5960])
+                    ("bcReportDataNumCheck" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("hbCheckNumStatisticsId" variable (:type "String") (reparse-symbol formal_parameters) [5996 6025])
+                            ("checkDate" variable (:type "String") (reparse-symbol formal_parameters) [6030 6046])
+                            ("unqualifiedCount" variable (:type "int") (reparse-symbol formal_parameters) [6048 6068])
+                            ("recheckCount" variable (:type "int") (reparse-symbol formal_parameters) [6070 6086])
+                            ("maintenanceCount" variable (:type "int") (reparse-symbol formal_parameters) [6091 6111]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5963 6848])
+                    ("selectIsRepetitionCheck" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("checkDate" variable (:type "String") (reparse-symbol formal_parameters) [6902 6918]))                          )
+                        (reparse-symbol class_member_declaration) [6878 7452])
+                    ("insToTable" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("cunitCode" variable (:type "String") (reparse-symbol formal_parameters) [7481 7497])
+                            ("cunitType" variable (:type "String") (reparse-symbol formal_parameters) [7498 7514])
+                            ("cunitName" variable (:type "String") (reparse-symbol formal_parameters) [7515 7531]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7458 7900])
+                    ("selectDetection" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("cunitCode" variable (:type "String") (reparse-symbol formal_parameters) [7935 7951]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [7904 8389])
+                    ("selectDetectionByCode" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("cunitCode" variable (:type "String") (reparse-symbol formal_parameters) [8427 8443])
+                            ("cunitName" variable (:type "String") (reparse-symbol formal_parameters) [8444 8460])
+                            ("cunitType" variable (:type "String") (reparse-symbol formal_parameters) [8461 8477]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [8393 9193])
+                    ("getUnqualCountByDate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("checkDateStr" variable (:type "String") (reparse-symbol formal_parameters) [9282 9301]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [9250 9773])
+                    ("getRecheckCountByDate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("checkDateStr" variable (:type "String") (reparse-symbol formal_parameters) [9821 9840]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [9788 10303])
+                    ("getWxzlCountByDate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("starTimeSeconds" variable (:type "long") (reparse-symbol formal_parameters) [10347 10367])
+                            ("endTimeSeconds" variable (:type "long") (reparse-symbol formal_parameters) [10369 10388]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [10317 10859]))                  
+                :type "class")
+                nil [355 10863]))          
+      :file "HbRepairMsgDao.java"
+      :pointmax 10863
+      :fsize 11002
+      :lastmodtime '(24272 56482 505439 689000)
+      :unmatched-syntax '((GT 6876 . 6877) (COMMA 6869 . 6870) (PUBLIC 6852 . 6858) (LT 6862 . 6863) (GT 5530 . 5531) (COMMA 5522 . 5523) (PUBLIC 5505 . 5511) (LT 5515 . 5516) (RSHIFT 3649 . 3651) (COMMA 3642 . 3643) (LT 3635 . 3636) (PUBLIC 3620 . 3626) (LT 3631 . 3632) (GT 1771 . 1772) (IDENTIFIER 1755 . 1759) (LT 1759 . 1760) (RSHIFT 1059 . 1061) (COMMA 1051 . 1052) (LT 1044 . 1045) (PUBLIC 1029 . 1035) (LT 1040 . 1041) (RSHIFT 433 . 435) (COMMA 425 . 426) (LT 418 . 419) (PUBLIC 403 . 409) (LT 414 . 415))))
+  :file "!home!stone!workspace!star!bjvm!timertask!src!com!ctfo!bjvmmis!dao!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

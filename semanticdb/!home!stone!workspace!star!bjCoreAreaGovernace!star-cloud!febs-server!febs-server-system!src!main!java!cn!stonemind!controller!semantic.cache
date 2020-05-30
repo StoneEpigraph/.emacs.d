@@ -1,0 +1,88 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("cn.stonemind.controller" package nil nil [1 33])
+            ("cc.mrbird.febs.common.annotation.ControllerEndpoint" include nil nil [35 94])
+            ("cc.mrbird.febs.common.entity.FebsResponse" include nil nil [95 144])
+            ("cc.mrbird.febs.common.entity.QueryRequest" include nil nil [145 194])
+            ("cc.mrbird.febs.common.exception.FebsException" include nil nil [195 248])
+            ("cn.stonemind.entity.AFAC01VEHICLEHY" include nil nil [249 292])
+            ("cn.stonemind.service.IAFAC01VEHICLEHYService" include nil nil [293 345])
+            ("com.baomidou.mybatisplus.core.toolkit.StringPool" include nil nil [346 402])
+            ("cn.stonemind.entity.AFAC01VEHICLEHY" include nil nil [403 446])
+            ("cn.stonemind.service.IAFAC01VEHICLEHYService" include nil nil [447 499])
+            ("com.wuwenze.poi.ExcelKit" include nil nil [500 532])
+            ("lombok.extern.slf4j.Slf4j" include nil nil [533 566])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil nil [567 629])
+            ("org.springframework.security.access.prepost.PreAuthorize" include nil nil [630 694])
+            ("org.springframework.validation.annotation.Validated" include nil nil [695 754])
+            ("org.springframework.web.bind.annotation.*" include nil nil [755 804])
+            ("javax.servlet.http.HttpServletResponse" include nil nil [806 852])
+            ("javax.validation.Valid" include nil nil [853 883])
+            ("javax.validation.constraints.NotBlank" include nil nil [884 929])
+            ("java.util.List" include nil nil [930 952])
+            ("java.util.Map" include nil nil [953 974])
+            ("AFAC01VEHICLEHYController" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("aFAC01VEHICLEHYService" variable
+                       (:typemodifiers ("private")
+                        :type "IAFAC01VEHICLEHYService")
+                        (reparse-symbol class_member_declaration) [1251 1306])
+                    ("getAllAFAC01VEHICLEHYs" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("aFAC01VEHICLEHY" variable (:type "AFAC01VEHICLEHY") (reparse-symbol formal_parameters) [1429 1460]))                          
+                        :type "FebsResponse")
+                        (reparse-symbol class_member_declaration) [1386 1571])
+                    ("aFAC01VEHICLEHYList" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("request" variable (:type "QueryRequest") (reparse-symbol formal_parameters) [1699 1719])
+                            ("aFAC01VEHICLEHY" variable (:type "AFAC01VEHICLEHY") (reparse-symbol formal_parameters) [1721 1752]))                          
+                        :type "FebsResponse")
+                        (reparse-symbol class_member_declaration) [1659 1942])
+                    ("addAFAC01VEHICLEHY" function
+                       (:throws ("FebsException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("" variable (:type "aFAC01VEHICLEHY") (reparse-symbol formal_parameters) [2175 2190]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2121 2508])
+                    ("deleteAFAC01VEHICLEHY" function
+                       (:throws ("FebsException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("" variable (:type "ids") (reparse-symbol formal_parameters) [2791 2794]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2702 3143])
+                    ("updateAFAC01VEHICLEHY" function
+                       (:throws ("FebsException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("aFAC01VEHICLEHY" variable (:type "AFAC01VEHICLEHY") (reparse-symbol formal_parameters) [3358 3389]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3324 3688])
+                    ("export" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("queryRequest" variable (:type "QueryRequest") (reparse-symbol formal_parameters) [3903 3928])
+                            ("aFAC01VEHICLEHY" variable (:type "AFAC01VEHICLEHY") (reparse-symbol formal_parameters) [3930 3961])
+                            ("response" variable (:type "HttpServletResponse") (reparse-symbol formal_parameters) [3963 3991]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3884 4209]))                  
+                :type "class")
+                nil [1191 4211]))          
+      :file "AFAC01VEHICLEHYController.java"
+      :pointmax 4212
+      :fsize 4283
+      :lastmodtime '(24101 18459 620179 864000)
+      :unmatched-syntax nil))
+  :file "!home!stone!workspace!star!bjCoreAreaGovernace!star-cloud!febs-server!febs-server-system!src!main!java!cn!stonemind!controller!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

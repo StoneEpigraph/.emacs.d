@@ -1,0 +1,35 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("java.util.stream.Stream" include nil nil [2 33])
+            ("Java8Test" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("Java8Test" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [296 323])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [353 366]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [329 547]))                  
+                :type "class")
+                nil [189 549]))          
+      :file "Java8Test.java"
+      :pointmax 550
+      :fsize 549
+      :lastmodtime '(24159 7348 651536 419000)
+      :unmatched-syntax '((IDENTIFIER 1 . 3) (IDENTIFIER 1 . 2) (IDENTIFIER 1 . 2))))
+  :file "!home!stone!workspace!java!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

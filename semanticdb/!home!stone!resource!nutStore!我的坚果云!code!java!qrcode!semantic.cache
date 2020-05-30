@@ -1,0 +1,67 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.qrcode" package nil nil [1 20])
+            ("java.awt.Color" include nil nil [22 44])
+            ("java.awt.Graphics2D" include nil nil [45 72])
+            ("java.awt.image.BufferedImage" include nil nil [73 109])
+            ("java.io.File" include nil nil [110 130])
+            ("java.io.IOException" include nil nil [131 158])
+            ("java.io.UnsupportedEncodingException" include nil nil [159 203])
+            ("javax.imageio.ImageIO" include nil nil [205 234])
+            ("com.swetake.util.Qrcode" include nil nil [236 267])
+            ("QRCodeTest" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [330 343]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [306 715])
+                    ("createQRCode" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("content" variable (:type "String") (reparse-symbol formal_parameters) [746 760])
+                            ("imgType" variable (:type "String") (reparse-symbol formal_parameters) [762 776])
+                            ("version" variable (:type "int") (reparse-symbol formal_parameters) [778 789])
+                            ("pixel" variable (:type "int") (reparse-symbol formal_parameters) [790 799])
+                            ("imgPath" variable (:type "String") (reparse-symbol formal_parameters) [800 814]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [721 2004])
+                    ("changeContent" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("content" variable (:type "String") (reparse-symbol formal_parameters) [2050 2064])
+                            ("version" variable (:type "int") (reparse-symbol formal_parameters) [2066 2077]))                          
+                        :type "boolean[][]")
+                        (reparse-symbol class_member_declaration) [2016 2738])
+                    ("fillImage" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("graphics" variable (:type "Graphics2D") (reparse-symbol formal_parameters) [2773 2792])
+                            ("pixel" variable (:type "int") (reparse-symbol formal_parameters) [2794 2803])
+                            ("codeOut" variable
+                               (:dereference 2
+                                :type "boolean")
+                                (reparse-symbol formal_parameters) [2804 2825]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2750 3128]))                  
+                :type "class")
+                nil [269 3130]))          
+      :file "QRCodeTest.java"
+      :pointmax 3132
+      :fsize 3424
+      :lastmodtime '(24153 4065 411201 408000)
+      :unmatched-syntax nil))
+  :file "!home!stone!resource!nutStore!我的坚果云!code!java!qrcode!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

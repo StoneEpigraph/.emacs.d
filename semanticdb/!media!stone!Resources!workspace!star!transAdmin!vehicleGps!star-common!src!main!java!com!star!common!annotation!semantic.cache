@@ -1,0 +1,22 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.star.common.annotation" package nil nil [1 36])
+            ("java.lang.annotation.Documented" include nil nil [38 77])
+            ("java.lang.annotation.ElementType" include nil nil [78 118])
+            ("java.lang.annotation.Retention" include nil nil [119 157])
+            ("java.lang.annotation.RetentionPolicy" include nil nil [158 202])
+            ("java.lang.annotation.Target" include nil nil [203 238]))          
+      :file "DataScope.java"
+      :pointmax 533
+      :fsize 614
+      :lastmodtime '(24101 19889 187613 800000)
+      :unmatched-syntax '((BRACE_BLOCK 384 . 532) (IDENTIFIER 374 . 383) (IDENTIFIER 363 . 373) (IDENTIFIER 344 . 355) (PAREN_BLOCK 318 . 343) (IDENTIFIER 308 . 318) (PAREN_BLOCK 287 . 307) (IDENTIFIER 280 . 287) (BRACE_BLOCK 384 . 545) (IDENTIFIER 374 . 383) (IDENTIFIER 363 . 373) (IDENTIFIER 344 . 355) (PAREN_BLOCK 318 . 343) (IDENTIFIER 308 . 318) (PAREN_BLOCK 287 . 307) (IDENTIFIER 280 . 287) (BRACE_BLOCK 384 . 541) (IDENTIFIER 374 . 383) (IDENTIFIER 363 . 373) (IDENTIFIER 344 . 355) (PAREN_BLOCK 318 . 343) (IDENTIFIER 308 . 318) (PAREN_BLOCK 287 . 307) (IDENTIFIER 280 . 287) (BRACE_BLOCK 384 . 537) (IDENTIFIER 374 . 383) (IDENTIFIER 363 . 373) (IDENTIFIER 344 . 355) (PAREN_BLOCK 318 . 343) (IDENTIFIER 308 . 318) (PAREN_BLOCK 287 . 307) (IDENTIFIER 280 . 287) (BRACE_BLOCK 384 . 532) (IDENTIFIER 374 . 383) (IDENTIFIER 363 . 373) (IDENTIFIER 344 . 355) (PAREN_BLOCK 318 . 343) (IDENTIFIER 308 . 318) (PAREN_BLOCK 287 . 307) (IDENTIFIER 280 . 287))))
+  :file "!media!stone!Resources!workspace!star!transAdmin!vehicleGps!star-common!src!main!java!com!star!common!annotation!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
