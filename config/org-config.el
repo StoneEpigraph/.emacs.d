@@ -12,9 +12,9 @@
 (setq org-todo-keywords
       '((sequence "TODO(t)" "BUG(b)" "WAITING(w@/!)" "|" "FIXED(f)")
 	(sequence "MAYBE(m)" "|" "DONE(d!)" "CANCELED(c@/!)")))
-(custom-set-variables
-  '(org-agenda-files (quote ("~/resource/nutStore/我的坚果云/todo.org")))
-)
+;; (custom-set-variables
+;;   '(org-agenda-files (quote ("~/resource/nutStore/我的坚果云/todo.org")))
+;; )
 
 (defun org-summary-todo (n-done n-not-done)
       "Switch entry to DONE when all subentries are done, to TODO otherwise."

@@ -1,3 +1,4 @@
+;; window-numbering
 (window-numbering-mode t)
 (setq window-numbering-assign-func
       (lambda () (when (equal (buffer-name) "*Calculator*") 9)))
@@ -8,12 +9,11 @@
 (put 'dired-find-alternate-file 'disabled nil)
 (with-eval-after-load 'dired
   (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
-;; use chez scheme
-;;  (setq geiser-active-implementations '(chez))
+
 ;; user mit-scheme
 (setq scheme-program-name "mit-scheme")
 ;; scheme
-(add-to-list 'exec-path "/usr/bin")
+;; (add-to-list 'exec-path "/usr/bin")
 ;; (setq scheme-program-name "scheme")
 ;; (setq geiser-chez-binary "chez")
 ;; (setq geiser-active-implementations '(chez))

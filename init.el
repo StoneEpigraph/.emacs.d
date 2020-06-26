@@ -1,3 +1,7 @@
+
+
+
+
 ;; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;; base
 ;;      Setup pkg repo and install use-package
@@ -36,7 +40,7 @@
  '(custom-enabled-themes (quote (doom-spacegrey)))
  '(custom-safe-themes
    (quote
-    ("e7666261f46e2f4f42fd1f9aa1875bdb81d17cc7a121533cad3e0d724f12faf2" "de43de35da390617a5b3e39b6b27c107cc51271eb95cceb1f43d13d9647c911d" "e47c0abe03e0484ddadf2ae57d32b0f29f0b2ddfe7ec810bd6d558765d9a6a6c" "6cbf6003e137485fb3f904e76fb15bc48abc386540f43f54e2a47a9884e679f6" "bc99493670a29023f99e88054c9b8676332dda83a37adb583d6f1e4c13be62b8" "5091eadbb87fa0a168a65f2c3e579d1a648d764f12ab9d3ab7bdefca709cd2a5" "32fd809c28baa5813b6ca639e736946579159098d7768af6c68d78ffa32063f4" "9d54f3a9cf99c3ffb6ac8e84a89e8ed9b8008286a81ef1dbd48d24ec84efb2f1" "a4b9eeeabde73db909e6b080baf29d629507b44276e17c0c411ed5431faf87dd" "dc677c8ebead5c0d6a7ac8a5b109ad57f42e0fe406e4626510e638d36bcc42df" "1ca1f43ca32d30b05980e01fa60c107b02240226ac486f41f9b790899f6f6e67" "15ba8081651869ec689c9004288bed79003de5b4ee9c51a9d4a208d9e3439706" "eb94e44599a45c495ad472ad551a40b87cbc4bae9631211e7a78d72b102c61b1" "1897b97f63e91a792e8540c06402f29d5edcbfb0aafd64b1b14270663d6868ee" "a02836a5807a687c982d47728e54ff42a91bc9e6621f7fe7205b0225db677f07" "4b0b568d63b1c6f6dddb080b476cfba43a8bbc34187c3583165e8fb5bbfde3dc" "a4fa3280ffa1f2083c5d4dab44a7207f3f7bcb76e720d304bd3bd640f37b4bef" "c6b93ff250f8546c7ad0838534d46e616a374d5cb86663a9ad0807fd0aeb1d16" "92d8a13d08e16c4d2c027990f4d69f0ce0833c844dcaad3c8226ae278181d5f3" "b60f08ddc98a95485ec19f046a81d5877b26ab80a67782ea5b91a00ea4f52170" "5c9a906b076fe3e829d030a404066d7949e2c6c89fc4a9b7f48c054333519ee7" "41039913efab185af1ec1b13ff4df36d6941994d5e3dee39791f30fcd94b42be" "669e05b25859b9e5b6b9809aa513d76dd35bf21c0f16d8cbb80fb0727dc8f842" "4a9f595fbffd36fe51d5dd3475860ae8c17447272cf35eb31a00f9595c706050" "a9c619535d63719a15f22e3c450a03062d3fed1e356ef96d33015849c4c43946" "5e0b63e0373472b2e1cf1ebcc27058a683166ab544ef701a6e7f2a9f33a23726" "8c75e2bdf8d1293c77a752dd210612cfb99334f7edd360a42a58a8497a078b35" "fe76f3d5094967034192f6a505085db8db6deb0e135749d9a54dc488d6d3ee2f" "0fe9f7a04e7a00ad99ecacc875c8ccb4153204e29d3e57e9669691e6ed8340ce" "423435c7b0e6c0942f16519fa9e17793da940184a50201a4d932eafe4c94c92d" "dd854be6626a4243375fd290fec71ed4befe90f1186eb5b485a9266011e15b29" "41c8c11f649ba2832347fe16fe85cf66dafe5213ff4d659182e25378f9cfc183" default)))
+    ("82360e5f96244ce8cc6e765eeebe7788c2c5f3aeb96c1a765629c5c7937c0b5b" "e7666261f46e2f4f42fd1f9aa1875bdb81d17cc7a121533cad3e0d724f12faf2" "de43de35da390617a5b3e39b6b27c107cc51271eb95cceb1f43d13d9647c911d" "e47c0abe03e0484ddadf2ae57d32b0f29f0b2ddfe7ec810bd6d558765d9a6a6c" "6cbf6003e137485fb3f904e76fb15bc48abc386540f43f54e2a47a9884e679f6" "bc99493670a29023f99e88054c9b8676332dda83a37adb583d6f1e4c13be62b8" "5091eadbb87fa0a168a65f2c3e579d1a648d764f12ab9d3ab7bdefca709cd2a5" "32fd809c28baa5813b6ca639e736946579159098d7768af6c68d78ffa32063f4" "9d54f3a9cf99c3ffb6ac8e84a89e8ed9b8008286a81ef1dbd48d24ec84efb2f1" "a4b9eeeabde73db909e6b080baf29d629507b44276e17c0c411ed5431faf87dd" "dc677c8ebead5c0d6a7ac8a5b109ad57f42e0fe406e4626510e638d36bcc42df" "1ca1f43ca32d30b05980e01fa60c107b02240226ac486f41f9b790899f6f6e67" "15ba8081651869ec689c9004288bed79003de5b4ee9c51a9d4a208d9e3439706" "eb94e44599a45c495ad472ad551a40b87cbc4bae9631211e7a78d72b102c61b1" "1897b97f63e91a792e8540c06402f29d5edcbfb0aafd64b1b14270663d6868ee" "a02836a5807a687c982d47728e54ff42a91bc9e6621f7fe7205b0225db677f07" "4b0b568d63b1c6f6dddb080b476cfba43a8bbc34187c3583165e8fb5bbfde3dc" "a4fa3280ffa1f2083c5d4dab44a7207f3f7bcb76e720d304bd3bd640f37b4bef" "c6b93ff250f8546c7ad0838534d46e616a374d5cb86663a9ad0807fd0aeb1d16" "92d8a13d08e16c4d2c027990f4d69f0ce0833c844dcaad3c8226ae278181d5f3" "b60f08ddc98a95485ec19f046a81d5877b26ab80a67782ea5b91a00ea4f52170" "5c9a906b076fe3e829d030a404066d7949e2c6c89fc4a9b7f48c054333519ee7" "41039913efab185af1ec1b13ff4df36d6941994d5e3dee39791f30fcd94b42be" "669e05b25859b9e5b6b9809aa513d76dd35bf21c0f16d8cbb80fb0727dc8f842" "4a9f595fbffd36fe51d5dd3475860ae8c17447272cf35eb31a00f9595c706050" "a9c619535d63719a15f22e3c450a03062d3fed1e356ef96d33015849c4c43946" "5e0b63e0373472b2e1cf1ebcc27058a683166ab544ef701a6e7f2a9f33a23726" "8c75e2bdf8d1293c77a752dd210612cfb99334f7edd360a42a58a8497a078b35" "fe76f3d5094967034192f6a505085db8db6deb0e135749d9a54dc488d6d3ee2f" "0fe9f7a04e7a00ad99ecacc875c8ccb4153204e29d3e57e9669691e6ed8340ce" "423435c7b0e6c0942f16519fa9e17793da940184a50201a4d932eafe4c94c92d" "dd854be6626a4243375fd290fec71ed4befe90f1186eb5b485a9266011e15b29" "41c8c11f649ba2832347fe16fe85cf66dafe5213ff4d659182e25378f9cfc183" default)))
  '(ensime-sem-high-faces
    (quote
     ((var :foreground "#9876aa" :underline
@@ -62,10 +66,10 @@
  '(jdee-db-requested-breakpoint-face-colors (cons "#fafafa" "#4f894c"))
  '(jdee-db-spec-breakpoint-face-colors (cons "#fafafa" "#bdbdbd"))
  '(objed-cursor-color "#99324b")
- '(org-agenda-files (quote ("~/resource/nutStore/我的坚果云/todo.org")))
+ '(org-agenda-files (quote ("~/")))
  '(package-selected-packages
    (quote
-    (paredit-everywhere racket-mode vue-mode company-nginx darcula-theme paredit 0blayout live-py-mode 2048-game youdao-dictionary ansible ppp mvn jdee flycheck window-numbering web-mode quelpa-use-package pipenv python-mode highlight-parentheses dash-functional counsel-dash smartparens js2-mode org-bullets counsel swiper doom-modeline all-the-icons yaml-mode slime slime-company window-number company markdown-mode)))
+    (doom-themes paredit-everywhere racket-mode vue-mode company-nginx darcula-theme paredit 0blayout live-py-mode 2048-game youdao-dictionary ansible ppp mvn jdee flycheck window-numbering web-mode quelpa-use-package pipenv python-mode highlight-parentheses dash-functional counsel-dash smartparens js2-mode org-bullets counsel swiper doom-modeline all-the-icons yaml-mode slime slime-company window-number company markdown-mode highlight-parentheses smartparens web-mode window-Numbering Counsel racket-mode)))
  '(pdf-view-midnight-colors (cons "#fafafa" "#2a2a2a"))
  '(vc-annotate-background "#fafafa")
  '(vc-annotate-color-map
@@ -142,8 +146,6 @@
 ;; 全屏
 
 ;; (setq initial-frame-alist '((top . 0) (left . 0) (width . 175) (height . 70)))
-;; (add-to-list 'load-path "/media/stone/Resources/softwareData/dailyNotes")
-;; (neotree-change-root "/media/stone/Resources/softwareData/dailyNotes")
 (put 'upcase-region 'disabled nil)
 ;; (toggle-truncate-lines 1) ;; 自动换行。
 (setq truncate-lines t)
@@ -164,7 +166,6 @@
 
 ;; neotree
 (use-package all-the-icons)
-(add-to-list 'load-path "/home/stone/resource/nutStore")
 (use-package neotree
 	     :config
 	     (progn
@@ -174,7 +175,7 @@
 	       (setq-default neo-show-hidden-files t)
 	       (global-set-key [f2] 'neotree-toggle)
 	       (global-set-key [f8] 'neotree-refresh)
-	       (neotree-dir "/home/stone/resource/nutStore/我的坚果云/")))
+	       ))
 
 
 
@@ -217,11 +218,8 @@
   (let ((default-directory (file-name-as-directory dir)))
     (add-to-list 'load-path dir)
     (normal-top-level-add-subdirs-to-load-path)))
-;; scheme
-;; (setq scheme-program-name "/usr/bin/scheme" )
 ;; 递归加载~/.emacs.d/config/目录
 (add-subdirs-to-load-path "~/.emacs.d/config/")
-
 
 (require 'kbd-config)
 (require 'org-config)
